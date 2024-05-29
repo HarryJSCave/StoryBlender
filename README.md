@@ -3,7 +3,7 @@ Get that bag...
 https://ai.google.dev/competition
 
 
-
+-----------------------------------------------------------------------------------
 **Innovation**
 You can only win one of the prizes in this category
 
@@ -15,10 +15,10 @@ Demonstrate the tangible positive impact your app can have on everyday life. Sho
 
 **Most creative app - $200,000**: 
 Blow us away with an app that shatters expectations and redefines the boundaries of what's possible. We're seeking applications that push the limits of creativity, AI, or even venture into the unknown.
+------------------------------------------------------------------------------
 
 
-
-
+------------------------------------------------------------------------------
 **Technology**
 You can only win one of the prizes in this category
 
@@ -39,4 +39,4 @@ Showcase the diverse and impressive range of applications you can build using th
 
 **Best game app - $50,000**: 
 Reimagine gaming with the Gemini API. Show us how you can use AI to create immersive worlds, intelligent characters, groundbreaking gameplay mechanics, and more.
-<br>
+------------------------------------------------------------------------------
