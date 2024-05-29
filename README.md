@@ -15,7 +15,10 @@ Demonstrate the tangible positive impact your app can have on everyday life. Sho
 
 **Most creative app - $200,000**
 Blow us away with an app that shatters expectations and redefines the boundaries of what's possible. We're seeking applications that push the limits of creativity, AI, or even venture into the unknown.
-<br>
+
+
+
+
 **Technology**
 You can only win one of the prizes in this category
 
