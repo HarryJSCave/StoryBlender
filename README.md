@@ -1,2 +1,3 @@
 # StoryBlender
 Get that bag...
+https://ai.google.dev/competition
