@@ -1,0 +1,6 @@
+{
+  "appTitle": "story_blender",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
