@@ -39,4 +39,3 @@ Showcase the diverse and impressive range of applications you can build using th
 
 **Best game app - $50,000**: 
 Reimagine gaming with the Gemini API. Show us how you can use AI to create immersive worlds, intelligent characters, groundbreaking gameplay mechanics, and more.
-------------------------------------------------------------------------------
