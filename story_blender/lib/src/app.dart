@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'components/CreateNewStory.dart';
+import 'components/LandingPage.dart';
 
 import 'sample_feature/sample_item_details_view.dart';
 import 'sample_feature/sample_item_list_view.dart';
@@ -19,10 +21,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const String appTitle = 'Story Blender';
     return ListenableBuilder(
       listenable: settingsController,
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
+          title: appTitle,
           restorationScopeId: 'app',
           localizationsDelegates: const [
             AppLocalizations.delegate,
@@ -49,9 +53,12 @@ class MyApp extends StatelessWidget {
                     return const SampleItemDetailsView();
                   case TestWorkspaceView.routeName:
                     return const TestWorkspaceView();
-                  case SampleItemListView.routeName:
+                  // case SampleItemListView.routeName:
+                  case CreateNewStory.routeName:
+                    return const CreateNewStory();
+                  case LandingPage.routeName:
                   default:
-                    return const SampleItemListView();
+                    return const LandingPage();
                 }
               },
             );
