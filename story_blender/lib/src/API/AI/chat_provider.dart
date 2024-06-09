@@ -3,6 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:http/http.dart' as http;
+import 'package:story_blender/src/API/Comunication/request.dart';
+import 'package:story_blender/src/API/Comunication/response.dart';
 
 class ChatProvider extends ChangeNotifier {
   final List<String> _messages = [];
@@ -33,8 +35,32 @@ class ChatProvider extends ChangeNotifier {
 
     notifyListeners();
   }
-}
 
-class ChatProviderSession {
-  
+    // process request
+    /*
+      * Processes a request using the ChatProvider instance.
+    * 
+    * @param request The request to be processed.
+    * @returns The response from processing the request.
+    
+    Future<Response> processRequest(Request request) async {
+      // Example implementation, replace with actual logic to process the request
+      return _chatProvider.processRequest(request);
+    }
+  }
+    */
+
+  Response processRequest(Request request) {
+    // Implementation here
+    return Response();
+  }
+
+  void purgeSession() {
+    // Implementation here
+  }
+
+  void restartSession(String startupBio) {
+    // Implementation here
+    
+  }
 }

@@ -6,6 +6,7 @@ import 'package:story_blender/src/Classes/item.dart';
 
 class ItemWizard extends Wizard {
   ItemWizard(String startupBio) : super(startupBio);
+  
 
   @override
   Response handleRequest(Request request) {
