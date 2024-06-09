@@ -47,7 +47,9 @@ class AISession {
     _chatProvider.restartSession(startupBio);
   }
 
-  
+  Future<Response> ask(Request query) {
+    return _chatProvider.ask(query);
+  }
   
 
   /**

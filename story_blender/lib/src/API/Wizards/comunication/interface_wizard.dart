@@ -4,12 +4,16 @@ import 'package:story_blender/src/API/Comunication/response.dart';
 import 'package:story_blender/src/API/Wizards/wizard.dart';
 
 class InterfaceWizard extends Wizard {
+   final String startupBio = "You  "; // craft a bio for the wizard here 
+
   InterfaceWizard(String startupBio) : super(startupBio);
 
 
   @override
   Response handleRequest(Request request) {
     // this is where the magic happens
+    // send teh respond to the wizard controller 
+    this.aiSession.ask(request);
 
     return Response();
     // Implementation here

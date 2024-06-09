@@ -1,7 +1,6 @@
 import 'package:story_blender/src/API/AI/ai_session.dart';
 import 'package:story_blender/src/API/Comunication/request.dart';
 import 'package:story_blender/src/API/Comunication/response.dart';
-import 'package:story_blender/src/API/ai_interactions/api_controller.dart';
 
 /**
  * Abstract Wizard class

@@ -5,4 +5,6 @@ class Request {
   Context context;
 
   Request(this.query, this.context);
+
+  Object? toJson() {}
 }
