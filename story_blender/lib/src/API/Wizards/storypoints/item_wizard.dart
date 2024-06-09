@@ -11,7 +11,8 @@ class ItemWizard extends Wizard {
   @override
   Response handleRequest(Request request) {
     // Implementation here
-    return Response();
+    final text_response = this.aiSession.ask(request.query);
+    return Response(text: text_response);
   }
 
   @override
@@ -23,6 +24,8 @@ class ItemWizard extends Wizard {
   void sendResponse(Response response) {
     // Implementation here
   }
+
+
 
   Item createItem(Request request) {
     /**

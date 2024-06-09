@@ -6,6 +6,7 @@ import 'package:story_blender/src/API/Wizards/wizard.dart';
 class InterfaceWizard extends Wizard {
   InterfaceWizard(String startupBio) : super(startupBio);
 
+
   @override
   Response handleRequest(Request request) {
     // this is where the magic happens
