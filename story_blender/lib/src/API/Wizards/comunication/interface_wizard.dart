@@ -8,6 +8,9 @@ class InterfaceWizard extends Wizard {
 
   @override
   Response handleRequest(Request request) {
+    // this is where the magic happens
+
+    return Response();
     // Implementation here
   }
 
@@ -23,9 +26,11 @@ class InterfaceWizard extends Wizard {
 
   Action parseUserResponse(String response) {
     // Implementation here
+    return Action();
   }
 
   Response determineNextStep(Action action) {
     // Implementation here
+    return Response();
   }
 }

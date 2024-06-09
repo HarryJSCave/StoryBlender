@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import  '../API/api_controller.dart';
+import 'package:story_blender/src/API/AI/chat_provider.dart';
 
 class TestWorkspaceView extends StatelessWidget {
   const TestWorkspaceView({super.key});

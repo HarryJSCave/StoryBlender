@@ -11,6 +11,7 @@ class WorldWizard extends Wizard {
   @override
   Response handleRequest(Request request) {
     // Implementation here
+    return Response();
   }
 
   @override
@@ -25,5 +26,6 @@ class WorldWizard extends Wizard {
 
   Response handleWorldInteraction(Item item) {
     // Implementation here
+    return Response();
   }
 }

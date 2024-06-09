@@ -10,6 +10,7 @@ class ItemWizard extends Wizard {
   @override
   Response handleRequest(Request request) {
     // Implementation here
+    return Response();
   }
 
   @override
@@ -23,6 +24,21 @@ class ItemWizard extends Wizard {
   }
 
   Item createItem(Request request) {
+    /**
+     *   /// The name of the item.
+  String name;
+
+  /// The type of the item (e.g., tool, character, place).
+  String type;
+
+  /// A map of attributes related to the item.
+  Map<String, dynamic> attributes;
+     */
+    const tempName = "temp_name";
+    const tempType = "temp_type";
+    const tempAttributes = {"temp_key": "temp_value"};
+    
     // Implementation here
+    return Item(name: tempName, type: tempType, attributes: tempAttributes);
   }
 }
