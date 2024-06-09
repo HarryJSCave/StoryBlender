@@ -25,7 +25,7 @@ class ChatProvider extends ChangeNotifier {
   try {
        final  response = await model.generateContent(content);
 
-    _messages.add( response.toString());
+    _messages.add(response.candidates[0].content.parts[0].toJson().toString());
   } catch (e) {
     _messages.add('Error: $e');
   }   
