@@ -35,5 +35,6 @@ class ChatProvider extends ChangeNotifier {
   }
 }
 
-
-class AIController {}
+class ChatProviderSession {
+  
+}
