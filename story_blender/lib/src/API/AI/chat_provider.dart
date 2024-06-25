@@ -8,7 +8,7 @@ import 'package:story_blender/src/API/Comunication/response.dart';
 
 class ChatProvider extends ChangeNotifier {
   final List<String> _messages = [];
-  static const apiKey = 'AIzaSyAn4I9W_0gQQs4bHsKtv2sKFDhDpE_wdGo'; // Set the API key in your environment variables
+  static const apiKey = ''; // Set the API key in your environment variables
 
   List<String> get messages => _messages;
 
